@@ -1,6 +1,7 @@
-# deployd v0.6.11
+# deployd v0.7.0-concepta
 
-[![Build Status](https://secure.travis-ci.org/deployd/deployd.png)](http://travis-ci.org/deployd/deployd)
+[![Build Status](https://secure.travis-ci.org/ianko/deployd.png)](http://travis-ci.org/ianko/deployd)
+
 
 ## overview
 
@@ -8,17 +9,12 @@ Deployd is the simplest way to build realtime APIs for web and mobile apps. Read
 
 [Read more about deployd](http://deployd.com)
 
-
-## install win
-
-[Download](http://deployd.com/download.html) the installer.
-
-## quick start
-
-	$ dpd create hello
-	$ cd hello
-	$ dpd -d
-	
+## changes from original
+ 
+ - Add ability to use Underscore and Underscore.string in event validations
+ - Remove the restriction to show the count only for root users
+ 
+    
 ## helpful resources
 
  - [Docs](http://docs.deployd.com/)
@@ -28,26 +24,22 @@ Deployd is the simplest way to build realtime APIs for web and mobile apps. Read
  - [Community Discussion Page](http://deployd.com/community.html)
  - [Example Apps](http://docs.deployd.com/examples/)
 
-## install from npm
-
-	npm install deployd -g
-
 ## install from source
 
-	git clone https://github.com/deployd/deployd.git
-	npm install
-	npm link
+    git clone https://github.com/ianko/deployd.git
+    npm install
+    npm link
 
 ## unit tests
 
-	cd deployd
-	mongod &
-	npm test
+    cd deployd
+    mongod &
+    npm test
 
 ## integration tests
-	
-	cd test-app
-	../bin/dpd -o
+    
+    cd test-app
+    dpd -o
 
 ## license
 

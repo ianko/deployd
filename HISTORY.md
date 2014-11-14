@@ -1,5 +1,11 @@
 # History
 
+## 0.7.0-concepta
+ 
+ - Add ability to use Underscore and Underscore.string in event validations
+ - Remove the restriction to show the count only for root users
+
+
 ## 0.7.0
 
  - Add ability to query by subproperty within GET event

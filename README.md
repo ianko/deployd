@@ -1,7 +1,6 @@
-# deployd v0.7.0-concepta
+# deployd v0.8.0-concepta.1
 
 [![Build Status](https://secure.travis-ci.org/ianko/deployd.png)](http://travis-ci.org/ianko/deployd)
-
 
 ## overview
 
@@ -10,11 +9,10 @@ Deployd is the simplest way to build realtime APIs for web and mobile apps. Read
 [Read more about deployd](http://deployd.com)
 
 ## changes from original
- 
+
  - Add ability to use Underscore and Underscore.string in event validations
  - Remove the restriction to show the count only for root users
- 
-    
+
 ## helpful resources
 
  - [Docs](http://docs.deployd.com/)
@@ -37,7 +35,7 @@ Deployd is the simplest way to build realtime APIs for web and mobile apps. Read
     npm test
 
 ## integration tests
-    
+
     cd test-app
     dpd -o
 

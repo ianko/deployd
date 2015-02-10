@@ -1,7 +1,7 @@
 {
   "author": "Ianko Leite (forked from: Ritchie Martori)",
   "name": "concepta-deployd",
-  "version": "0.8.0-concepta.1",
+  "version": "0.8.1-concepta.1",
   "description": "the simplest way to build realtime APIs for web and mobile apps",
   "publishConfig": {
     "registry": "http://npm.conceptsol.com:4873/"

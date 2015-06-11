@@ -1,5 +1,6 @@
 # deployd v0.8.0-concepta.1
 
+> the simplest way to build an api.
 [![Build Status](https://secure.travis-ci.org/ianko/deployd.png)](http://travis-ci.org/ianko/deployd)
 
 ## overview

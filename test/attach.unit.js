@@ -14,11 +14,6 @@ function MockServer () {}
 MockServer.prototype.listen = function () {};
 MockServer.prototype.on = function () {};
 
-attach.__set__('process', {});
-attach.__set__('http', {
-    Server: MockServer
-});
-
 describe('attach', function() {
     var old_loadConfig = null;
     beforeEach(function() {
@@ -45,7 +40,7 @@ describe('attach', function() {
         beforeEach(function() {
             sh.cd(basepath);
             sh.rm('-rf', 'resources');
-            sh.mkdir('resources');
+            //sh.mkdir('resources');
 
             PORT = genPort();
             opts = {
